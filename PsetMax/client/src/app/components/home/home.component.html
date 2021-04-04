@@ -11,7 +11,13 @@
                             <h4  routerLink="/product/{{product.id}}"    class="class card-title">{{product.nombre}}</h4>
                             <p class="card text">
                                {{product.descripcion}}
+                               
                             </p>
+                            <div class="container-precio">
+                                <p class="badge badge-success">
+                                    ${{product.precio}}
+                                </p>
+                            </div>
                             <a class="btn btn-block btn-success" target="_blank">BUY</a>
                         </div>
                     </div>

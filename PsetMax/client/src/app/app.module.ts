@@ -20,6 +20,7 @@ import { ModalComponent } from './components/modal/modal.component';
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -38,7 +39,8 @@ import { ModalComponent } from './components/modal/modal.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+
   ],
   providers: [DataApiService],
   bootstrap: [AppComponent]
